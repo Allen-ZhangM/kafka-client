@@ -1,0 +1,40 @@
+{
+  "consumers": [
+    {
+      "topic": "lsm_report",
+      "addrs": [
+        "172.19.0.93:8310",
+        "172.19.0.93:8311"
+      ],
+      "partitions": [0],
+      "group_id": "pro"
+    },
+    {
+      "topic": "vv_session",
+      "addrs": [
+        "172.19.0.93:8310",
+        "172.19.0.93:8311"
+      ],
+      "partitions": [0],
+      "group_id": "pro"
+    },
+    {
+      "topic": "biz_report",
+      "addrs": [
+        "172.19.0.93:8310",
+        "172.19.0.93:8311"
+      ],
+      "partitions": [0],
+      "group_id": "pro"
+    },
+    {
+      "topic": "peer_session",
+      "addrs": [
+        "172.19.0.93:8310",
+        "172.19.0.93:8311"
+      ],
+      "partitions": [0],
+      "group_id": "pro"
+    }
+  ]
+}
